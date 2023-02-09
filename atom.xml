@@ -1,41 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>ilya-liang</title>
+  <title>ilya-Liang</title>
   
   <subtitle>一個顔值和技術并存的博主</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-02-08T07:53:58.540Z</updated>
+  <updated>2023-02-09T12:48:14.680Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>ilya-liang</name>
+    <name>ilya-Liang</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hello-world</title>
+    <title>使用寶塔搭建wordpress</title>
+    <link href="http://example.com/2023/02/09/%E4%BD%BF%E7%94%A8%E5%AF%B6%E5%A1%94%E6%90%AD%E5%BB%BAwordpress/"/>
+    <id>http://example.com/2023/02/09/%E4%BD%BF%E7%94%A8%E5%AF%B6%E5%A1%94%E6%90%AD%E5%BB%BAwordpress/</id>
+    <published>2023-02-09T11:53:30.000Z</published>
+    <updated>2023-02-09T12:48:14.680Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><h2 id="上一期教大家如何購買服務器還有搭建寶塔面板，這一期主要是在寶塔操作搭建wordpress"><a href="#上一期教大家如何購買服務器還有搭建寶塔面板，這一期主要是在寶塔操作搭建wordpress" class="headerlink" title="上一期教大家如何購買服務器還有搭建寶塔面板，這一期主要是在寶塔操作搭建wordpress"></a>上一期教大家如何購買服務器還有搭建寶塔面板，這一期主要是在寶塔操作搭建wordpress</h2><span id="more"></span></li><li><h3 id="創建網站"><a href="#創建網站" class="headerlink" title="創建網站"></a>創建網站</h3><ul><li><p>1、 打開我們的寶塔面板，點擊網站，添加站點<br><img src="/image/w1.jpg" alt=""></p></li><li><p>2、 功能變數名稱裡面可以自定義功能變數名稱，由於輝哥用的是虛擬機所以只能填寫局域網ip，伺服器的話，請先將功能變數名稱解析到伺服器的ip上，然後在添加功能變數名稱，資料庫選擇MySQL，預設會自動創建一個資料庫名稱和密碼，PHP選擇安裝的7.2版本<br><img src="/image/w2.jpg" alt=""></p></li><li><p>3、創建成功後會出現如下提示框<br><img src="/image/w3.png" alt=""></p></li></ul></li><li><h3 id="配置網站"><a href="#配置網站" class="headerlink" title="配置網站"></a>配置網站</h3><ul><li><p>1、點擊需要設置的網站後面的設置按鈕進入網站修改<br><img src="/image/w4.png" alt=""></p></li><li><p>2、點擊網站目錄，取消前面的√防跨站攻击(open_basedir)<br><img src="/image/w5.png" alt=""></p></li><li><p>3、點擊偽靜態，點擊下拉列表選擇WordPress，然後點擊保存<br><img src="/image/w6.png" alt=""></p></li></ul></li><li><h3 id="下載wordpress"><a href="#下載wordpress" class="headerlink" title="下載wordpress"></a>下載wordpress</h3><p>官方鏈接：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://cn.wordpress.org/download/</span><br></pre></td></tr></table></figure><p>PS：官网及官方直连都下载比较慢，本地下载相对较快<br><img src="/image/w7.png" alt=""></p></li><li><h3 id="上傳並解壓WordPress程式"><a href="#上傳並解壓WordPress程式" class="headerlink" title="上傳並解壓WordPress程式"></a>上傳並解壓WordPress程式</h3><ul><li>1、進入網站根目錄<br>點擊目前網站的根目錄即可進入<br><img src="/image/w8.jpg" alt=""></li><li>2、刪除自動生成的網站檔<br>全選檔，然後點擊刪除，確定刪除<br><img src="/image/w9.png" alt=""></li><li><p>3、點擊上傳按鈕，點擊選擇檔，選擇下載的WordPress程式，然後點擊開始上傳<br><img src="/image/w10.png" alt=""></p></li><li><p>4、上傳成功后，右鍵上傳的WordPress程式，點擊解壓<br><img src="/image/w11.jpg" alt=""><br><img src="/image/w11.png" alt=""></p></li><li><p>5、檔放在根目錄</p><p>解壓完成後WordPress程式沒有在網站根目錄，是打不開的，所以需要把網站檔放到網站根目錄</p><p>5.1、點擊WordPress進入資料夾，全選檔及資料夾，點擊剪切<br><img src="/image/w12.jpg" alt=""><br><img src="/image/w13.png" alt=""></p></li><li><p>5.2、傳回網站根目錄</p><p>點擊後退按鈕，或者直接點擊網站綁定功能變數名稱或ip資料夾即可進入網站根目錄<br><img src="/image/w14.png" alt=""><br><img src="/image/w15.png" alt=""></p></li><li><h3 id="安裝WordPress"><a href="#安裝WordPress" class="headerlink" title="安裝WordPress"></a>安裝WordPress</h3></li><li>1、進入瀏覽器，在位址欄裡面輸入你的網站綁定的功能變數名稱或者ip加埠號<br><img src="/image/w16.png" alt=""><br>添加之後訪問你的外網ip<br>訪問你的剛才添加的ip<br><img src="/image/w17.png" alt=""><br>就成功開啓你的wordpress</li><li><p>2、點擊現在就開始</p></li><li><p>3、輸入資料庫使用者名和密碼</p><p>由於網站和資料庫都在同一個伺服器或虛擬機上所以資料庫主機可以是內網位址，預設的即可</p><p>3.1、複製資料庫用戶名密碼<br>點擊寶塔面板左側的資料庫，記住創建的資料庫的使用者名，資料庫名，資料庫密碼</p><p>3.2、返回網站安裝程式，輸入資料庫使用者名，資料庫名，資料庫密碼，然後點擊提交<br><img src="/image/w18.png" alt=""><br><img src="/image/w19.png" alt=""><br>點擊提交</p></li><li><p>4、點擊現在安裝</p></li><li><p>5、輸入網站標題等相關信息，輸入完成後點擊安裝WordPress<br><img src="/image/w20.png" alt=""> </p></li><li><p>6、安裝完成後如下圖所示<br><img src="/image/w21.png" alt=""></p></li><li><p>7、進入後台</p><p>點擊登錄按鈕即可進入後台登錄介面，輸入設置的使用者名和密碼即可進入後臺<br><img src="/image/w22.png" alt=""></p></li><li><p>8、結尾<br><img src="/image/w23.png" alt=""></p></li></ul></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;h2 id=&quot;上一期教大家如何購買服務器還有搭建寶塔面板，這一期主要是在寶塔操作搭建wordpress&quot;&gt;&lt;a href=&quot;#上一期教大家如何購買服務器還有搭建寶塔面板，這一期主要是在寶塔操作搭建wordpress&quot; class=&quot;headerlink&quot; title=&quot;上一期教大家如何購買服務器還有搭建寶塔面板，這一期主要是在寶塔操作搭建wordpress&quot;&gt;&lt;/a&gt;上一期教大家如何購買服務器還有搭建寶塔面板，這一期主要是在寶塔操作搭建wordpress&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="服務器" scheme="http://example.com/categories/%E6%9C%8D%E5%8B%99%E5%99%A8/"/>
+    
+    <category term="wordpress" scheme="http://example.com/categories/%E6%9C%8D%E5%8B%99%E5%99%A8/wordpress/"/>
+    
+    
+    <category term="服務器" scheme="http://example.com/tags/%E6%9C%8D%E5%8B%99%E5%99%A8/"/>
+    
+    <category term="寶塔" scheme="http://example.com/tags/%E5%AF%B6%E5%A1%94/"/>
+    
+    <category term="wordpress" scheme="http://example.com/tags/wordpress/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>購買阿里雲服務器，部署宝塔面板</title>
+    <link href="http://example.com/2023/02/09/%E6%B3%A8%E5%86%8A%E9%98%BF%E9%87%8C%E9%9B%B2%E5%9C%8B%E9%9A%9B%E7%AB%99/"/>
+    <id>http://example.com/2023/02/09/%E6%B3%A8%E5%86%8A%E9%98%BF%E9%87%8C%E9%9B%B2%E5%9C%8B%E9%9A%9B%E7%AB%99/</id>
+    <published>2023-02-09T06:35:15.000Z</published>
+    <updated>2023-02-09T11:54:09.394Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><h2 id="本期文章教大家怎麽購買服務器-搭建寶塔面板，希望對大家有所幫助"><a href="#本期文章教大家怎麽購買服務器-搭建寶塔面板，希望對大家有所幫助" class="headerlink" title="本期文章教大家怎麽購買服務器,搭建寶塔面板，希望對大家有所幫助"></a>本期文章教大家怎麽購買服務器,搭建寶塔面板，希望對大家有所幫助</h2><ul><li><h3 id="官網鏈接："><a href="#官網鏈接：" class="headerlink" title="官網鏈接："></a>官網鏈接：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.aliyun.com/product/swas?spm=5176.19720258.J_3207526240.34.e93976f4tR6SlV</span><br></pre></td></tr></table></figure><span id="more"></span><img src="/image/11.png" alt=""></li><li>這個搶糧應用服務器夠用了，點擊購買的時候centos選擇7.6版本，下單就好<br><img src="/image/22.png" alt=""></li><li>我買了新加坡的，具體看大家需求</li></ul></li><li><h2 id="服務器購買之後搭建寶塔面板"><a href="#服務器購買之後搭建寶塔面板" class="headerlink" title="服務器購買之後搭建寶塔面板"></a>服務器購買之後搭建寶塔面板</h2><ul><li>本人比較喜歡用寶塔面板</li><li>首先我們先去注冊寶塔</li><li>官網鏈接<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.bt.cn/admin/servers#wcu</span><br></pre></td></tr></table></figure><img src="/image/66.png" alt=""></li><li>因爲我們是centos7</li><li>所以複製第一條鏈接<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh ed8484bec</span><br></pre></td></tr></table></figure></li><li>打開我們的阿里雲控制臺</li><li>上面有個工作臺點擊<br><img src="/image/77.png" alt=""></li><li><p>然後再點輕量應用服務器</p></li><li><p>進入控制臺之後<br><img src="/image/88.png" alt=""></p></li><li>進入控制臺輸入剛才從寶塔複製的命令<br><img src="/image/10.png" alt=""><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh ed8484bec</span><br></pre></td></tr></table></figure></li><li>下載安裝完成后,輸入命令<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bt</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">14</span><br></pre></td></tr></table></figure><img src="/image/99.png" alt=""></li><li>就會看見你的寶塔面板的鏈接還有賬號密碼</li><li>忘記講了一點要在阿里雲那裏設置root密碼才能進入終端</li></ul></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;h2 id=&quot;本期文章教大家怎麽購買服務器-搭建寶塔面板，希望對大家有所幫助&quot;&gt;&lt;a href=&quot;#本期文章教大家怎麽購買服務器-搭建寶塔面板，希望對大家有所幫助&quot; class=&quot;headerlink&quot; title=&quot;本期文章教大家怎麽購買服務器,搭建寶塔面板，希望對大家有所幫助&quot;&gt;&lt;/a&gt;本期文章教大家怎麽購買服務器,搭建寶塔面板，希望對大家有所幫助&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;h3 id=&quot;官網鏈接：&quot;&gt;&lt;a href=&quot;#官網鏈接：&quot; class=&quot;headerlink&quot; title=&quot;官網鏈接：&quot;&gt;&lt;/a&gt;官網鏈接：&lt;/h3&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;https://www.aliyun.com/product/swas?spm=5176.19720258.J_3207526240.34.e93976f4tR6SlV&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="服務器" scheme="http://example.com/categories/%E6%9C%8D%E5%8B%99%E5%99%A8/"/>
+    
+    
+    <category term="服務器" scheme="http://example.com/tags/%E6%9C%8D%E5%8B%99%E5%99%A8/"/>
+    
+    <category term="寶塔" scheme="http://example.com/tags/%E5%AF%B6%E5%A1%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>服務器怎麽選</title>
+    <link href="http://example.com/2023/02/09/%E6%9C%8D%E5%8B%99%E5%99%A8%E6%80%8E%E9%BA%BD%E9%81%B8/"/>
+    <id>http://example.com/2023/02/09/%E6%9C%8D%E5%8B%99%E5%99%A8%E6%80%8E%E9%BA%BD%E9%81%B8/</id>
+    <published>2023-02-09T05:43:44.000Z</published>
+    <updated>2023-02-09T11:44:58.428Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><h2 id="一、如何挑選適合自己的服務器"><a href="#一、如何挑選適合自己的服務器" class="headerlink" title="一、如何挑選適合自己的服務器"></a>一、如何挑選適合自己的服務器</h2><ul><li>其實推薦服務器比較爲難的，下面我給大家分享我收集到資料，本期不是水文章，是我收集了好多了up主使用過的vps服務器的體驗感給大家推薦的</li><li>如果大家不想選的話，搬瓦工就可以了，但是搬瓦工比較貴，所以我出了這篇文章<span id="more"></span></li></ul></li><li><h2 id="二、針對地區來選擇"><a href="#二、針對地區來選擇" class="headerlink" title="二、針對地區來選擇"></a>二、針對地區來選擇</h2><ul><li><p>海外服务器涉及到的太多，可能有几百个国家和地区，有的国土面积大的国家甚至还分为东西南北等几个不同的。如果你的业务仅仅局限在某一个国家或地区，只为当地人服务，那就直接选择当地的服务器就好了;如果你的业务范围比较大，横跨多个国家甚至布局全球，那么以下内容就挑出几个具有代表性并且最热门的几个海外服务器作分析，帮你更好地做选择。</p></li><li><p>本文就以比较热门且常用的香港、新加坡、美国、日本、韩国为例，这几个该如何选呢?一起来看看吧!</p></li><li><h3 id="1-香港服务器：香港是最热门的境外，由于其得天独厚的地理优势，因此在满足免备案要求的基础上，还能保证非常低的延迟速度。哪些企业建站租用香港服务器比较好呢"><a href="#1-香港服务器：香港是最热门的境外，由于其得天独厚的地理优势，因此在满足免备案要求的基础上，还能保证非常低的延迟速度。哪些企业建站租用香港服务器比较好呢" class="headerlink" title="1 / 香港服务器：香港是最热门的境外，由于其得天独厚的地理优势，因此在满足免备案要求的基础上，还能保证非常低的延迟速度。哪些企业建站租用香港服务器比较好呢?"></a>1 / 香港服务器：香港是最热门的境外，由于其得天独厚的地理优势，因此在满足免备案要求的基础上，还能保证非常低的延迟速度。哪些企业建站租用香港服务器比较好呢?</h3></li><li><p>1、游戏类网站：因为游戏开发涉及多方面多领域，免备案的香港服务器给游戏网站提供了诸多便利，另外，游戏网站最注重的有两点，一个是访问速度，另一个是安全， 鸿网互联在这方面做得很好，可以及时保证服务器的稳定，及时发现问题并解决，从根本上打消了游戏建站用户群体的顾虑。</p></li><li><p>2、金融类网站：金融行业做网站要卡率的是检索快、存储大、稳定性好、成本低、实时性强、安全性高，而这些优势在香港服务器上都得以体现，鸿网互联的香港服务器机房位于知名机房，安全稳定，访问速度快。</p></li><li><p>3、直销类网站：直销类网站的特征就是需要在线交易，因此做直销行业需要保证服务器的响应速度够快。有调查表明，如果客户在点击一个页面之后的10秒内还没响应，那么他大概率会关闭这个网页，使用香港服务器刚好可以杜绝这个隐患，因为香港服务器刚好在中国边境，无论是国内访问还是国外访问都非常快速。</p></li><li><p>4、外贸类网站：作为外贸网站，业务都在海外，而大陆服务器访问速度虽然比较快，但是无法满足外贸企业的需求，香港服务器双线互通，支持多种线路访问，方便快捷，满足外贸企业建站需要，并且365×24小时的售后服务，更加省心。</p></li></ul></li></ul><ul><li><h3 id="2-美国服务器：美国距离我国比较远，跨度为半个地球，即使用最优质的线路也会有150ms左右的延迟，但美国是最早发展互联网的国家之一，基础设施完备、技术先进，带宽、IP资源用之不竭，所以在资源、价格方面具备很大的优势。"><a href="#2-美国服务器：美国距离我国比较远，跨度为半个地球，即使用最优质的线路也会有150ms左右的延迟，但美国是最早发展互联网的国家之一，基础设施完备、技术先进，带宽、IP资源用之不竭，所以在资源、价格方面具备很大的优势。" class="headerlink" title="2 / 美国服务器：美国距离我国比较远，跨度为半个地球，即使用最优质的线路也会有150ms左右的延迟，但美国是最早发展互联网的国家之一，基础设施完备、技术先进，带宽、IP资源用之不竭，所以在资源、价格方面具备很大的优势。"></a>2 / 美国服务器：美国距离我国比较远，跨度为半个地球，即使用最优质的线路也会有150ms左右的延迟，但美国是最早发展互联网的国家之一，基础设施完备、技术先进，带宽、IP资源用之不竭，所以在资源、价格方面具备很大的优势。</h3><ul><li><p>①美国服务器适合做直播流媒体业务，直播流媒体行业所需要的带宽很大，而美国的带宽相比其他很多地区都较为便宜，并且美国服务器的网速也是很快的，在做直播的时候不容易出现卡顿的情况，让直播的整个过程都是很流畅顺利的，可以带给观众很流畅的体验，同时还能节省成本。</p></li><li><p>②美国服务器还可以做游戏业务，尤其是正在做国际服的游戏公司，他们大多都会选择租用美国服务器，通常其带宽是具有做大陆优化和精品网线路的，大陆化线路具有很高的性价比，在稳定性方面做得也很好。</p></li><li><p>③美国服务器也适合和做电商外贸业务，很多的企业在做电商服务的时候，不仅需要考虑平台是否正规可靠，还需要考虑身后的服务器是否优质，那么美国服务器也是可以很好地解决这个问题的，可以不断的提升网站的排名，提高企业的竞争力。</p><p>美国对比香港：比如说你的客户可能就是在美国或者是在西方的一些客户那里选择，嗯，美国那边的服务器当然是更好一些，但你的客户主要是集中在香港或者是集中在内地，这个时候选择香港的服务器肯定会更好一些。如果不差钱，直接选香港服务器吧，其实香港服务器唯一的缺点就是贵了。</p><p>值得一提的是，上面所说的都是普通的物理服务器。如果想租用防御高、抗攻击、抗DDoS的高防服务器或者IP资源丰富的站群服务器的话，那么首先还是建议大家还是选择美国，毕竟这些都是需要足够的带宽和IP资源作为支撑，而美国服务器丰富的带宽和IP资源能够完全满足。当然了，如果你不差钱，在速度上也要追求极致，那么选择香港高防服务器或向香港站群服务器也未尝不可。</p></li></ul></li></ul><ul><li><h3 id="3-新加坡服务器：新加坡位于北纬1°18′-东经103°51′-毗邻马六甲海峡南口，新加坡服务器有着极佳的网速，其电信Singtel是全球高速网络架构之一，100M出口带宽，45ms延迟覆盖整个东南亚区域，访问国内的速度也是几十毫秒，相当理想。"><a href="#3-新加坡服务器：新加坡位于北纬1°18′-东经103°51′-毗邻马六甲海峡南口，新加坡服务器有着极佳的网速，其电信Singtel是全球高速网络架构之一，100M出口带宽，45ms延迟覆盖整个东南亚区域，访问国内的速度也是几十毫秒，相当理想。" class="headerlink" title="3 / 新加坡服务器：新加坡位于北纬1°18′,东经103°51′,毗邻马六甲海峡南口，新加坡服务器有着极佳的网速，其电信Singtel是全球高速网络架构之一，100M出口带宽，45ms延迟覆盖整个东南亚区域，访问国内的速度也是几十毫秒，相当理想。"></a>3 / 新加坡服务器：新加坡位于北纬1°18′,东经103°51′,毗邻马六甲海峡南口，新加坡服务器有着极佳的网速，其电信Singtel是全球高速网络架构之一，100M出口带宽，45ms延迟覆盖整个东南亚区域，访问国内的速度也是几十毫秒，相当理想。</h3><p> 新加坡服务器适合跨境电商行业。作为访问东南亚、访问国内都很快速的网络之一，以及访问全球网络都良好的之一，新加坡服务器网络资源丰富且有着一定的高防，是跨境电商行业的首选。</p><p> 新加坡对比美国：新加坡服务器相比，美国服务器有更为丰厚的网络资源，并且整体价格会比新加坡服务器低很多，美国服务器访问欧洲地区的速度会十分优越，但是它访问国内的速度没有新加坡访问国内的速度快，美国服务器访问呢国内的速度一般会在200ms左右。如果用户群体中亚洲人占比多，建议选新加坡;如果欧美群体多，建议选美国。</p></li></ul><ul><li><h3 id="4-韩国服务器：韩国机房由于国内访问快，近年来也成为很多有海外建站需求业务用户的首选，那么通常情况下哪些行业适合放在韩国服务器上搭建呢"><a href="#4-韩国服务器：韩国机房由于国内访问快，近年来也成为很多有海外建站需求业务用户的首选，那么通常情况下哪些行业适合放在韩国服务器上搭建呢" class="headerlink" title="4 / 韩国服务器：韩国机房由于国内访问快，近年来也成为很多有海外建站需求业务用户的首选，那么通常情况下哪些行业适合放在韩国服务器上搭建呢?"></a>4 / 韩国服务器：韩国机房由于国内访问快，近年来也成为很多有海外建站需求业务用户的首选，那么通常情况下哪些行业适合放在韩国服务器上搭建呢?</h3><ul><li><p>①海外代购业务：除日本代购之外韩国代购也比较火爆，由于很多韩国电商网站对于一些产品和日本一样都有地区限定所以使用韩国IP注册账户能很好解决账号限制的问题，所以用来搭建一些代购业务是比较适合，常见的业务类型有账号出租、代购、海外代购平台网站等。</p></li><li><p>②个人网站搭建：由于韩国服务器也属于海外服务器，所以搭建网站时不需要走域名备案流程。虽然现在主流的韩国服务器的配置相对较高。一般适合一些大型网站部署，但是随着个人站长的数量增加，现在很多机房也能够提供相对平价的配置方案，更适合一些中小站长使用。</p></li><li><p>③视频类网站：由于韩国服务器的带宽比较充足，而且硬件配置完全能够支持高清视频的转码使用，再加上距离中国大陆比较近，所以很多视频站站长在选择视频的后台转码资源服务器时，也会考虑租用韩国服务器，而且韩国服务器对于视频内容限制较少，所以搭建视频服务器非常适合。</p></li><li><p>④海外游戏业务：由于现在很多玩家对于海外游戏的需求很高，加上中国大陆地区对于游戏上架的审核越来越严。所以很多端游、手游企业都会选择将自己的游戏放在海外网站上架，而韩国服务器无论是从硬件配置还是海网络带宽都都能够满足游戏业务的性能和资源要求。</p></li><li><p>⑤海外支付接口：除香港服务器和台湾服务器之外，其实在外贸网站上如果需要部署支付接口，在韩国服务器上搭建也是一个不错的选择，由于韩国机房距离中国大陆比较近，所以直接访问延时低，加上现在很多韩国机房到中国大陆都有CN2 网络直连中国，所以延时低，体验好。</p></li></ul></li><li><h3 id="5-日本服务器：日本国土面积不大，会让我们认为地方小带宽这块相对来说也很小，然而恰恰相反，日本服务器的带宽还是很充足的，亚洲大带宽服务器日本也在排在最前边的一个-日本服务器的PING值速度接近香港台湾新加坡-国际带宽出口比较充足，在带宽流量这方面完压香港台湾新加坡。"><a href="#5-日本服务器：日本国土面积不大，会让我们认为地方小带宽这块相对来说也很小，然而恰恰相反，日本服务器的带宽还是很充足的，亚洲大带宽服务器日本也在排在最前边的一个-日本服务器的PING值速度接近香港台湾新加坡-国际带宽出口比较充足，在带宽流量这方面完压香港台湾新加坡。" class="headerlink" title="5 / 日本服务器：日本国土面积不大，会让我们认为地方小带宽这块相对来说也很小，然而恰恰相反，日本服务器的带宽还是很充足的，亚洲大带宽服务器日本也在排在最前边的一个!日本服务器的PING值速度接近香港台湾新加坡, 国际带宽出口比较充足，在带宽流量这方面完压香港台湾新加坡。"></a>5 / 日本服务器：日本国土面积不大，会让我们认为地方小带宽这块相对来说也很小，然而恰恰相反，日本服务器的带宽还是很充足的，亚洲大带宽服务器日本也在排在最前边的一个!日本服务器的PING值速度接近香港台湾新加坡, 国际带宽出口比较充足，在带宽流量这方面完压香港台湾新加坡。</h3></li></ul><pre><code>通过以上，可以看出日本服务器的优势在带宽这块占有很大的优势，这样就免不了一些亚太华人市场的网站、游戏类客户、还有就是嫌在国内备案时间太长的客户，一些用来做全球邮件转发中转服务器的，外贸类的网站、VOIP语音服务这样的客户群体要用到日本服务器了。日本对比韩国：对于互联网技术比较发达的韩国来说，韩国服务器的网络质量相对较好，在亚洲地区来说，韩国的网速应该是排在第一位的，但是带宽相对较小，因此在带宽需求比较高时选择韩国服务器就会在带宽配置上提高相应的成本。而日本服务器的带宽相比韩国较大，如果需要带宽较大的服务器，日本服务器租用是一个不错的选择。而且日本具备最新的光纤骨干网络，多路由设计，稳定性更好。而且在安全方面，日本服务器遭受攻击的情况相对较少，而且多家日本数据中心拥有自己的流量清洗集群，因此在安全方面更具优势，对安全要求较高的可以选择日本服务器。日本服务器的稳定性绝佳，全球访问速度稳定，而且受到的攻击较少;而韩国服务器则亚洲访问速度快速，抗攻击性强。大家可以根据自身不同的建站需求来选择。</code></pre><ul><li><h2 id="三、主要跟大家分享服務器"><a href="#三、主要跟大家分享服務器" class="headerlink" title="三、主要跟大家分享服務器"></a>三、主要跟大家分享服務器</h2><ul><li><h3 id="1-甲骨文云"><a href="#1-甲骨文云" class="headerlink" title="1.甲骨文云"></a>1.甲骨文云</h3></li><li><p>1、需要有外幣信用卡，最優先去組測，因爲它是永久免費的，并且主要中庸，瀏覽比較大，10T每個月，推薦大家首選</p></li></ul></li></ul><ul><li><h3 id="2-亞馬遜云"><a href="#2-亞馬遜云" class="headerlink" title="2.亞馬遜云"></a>2.亞馬遜云</h3> 亞馬遜光帆 品質上比甲骨文云都要好，光帆免費用三個月，瀏覽也不錯有1T、2T。<br> ec2的話就比較少就100G瀏覽，<br> 整個亞馬遜云注冊完之後就會有一年的免費的這個賬號，一年之後就得付費了，光帆3.5美元就可以使用，如果不想用的話就重新注冊，白嫖黨永不爲奴</li></ul><ul><li><h3 id="3-微軟云"><a href="#3-微軟云" class="headerlink" title="3.微軟云"></a>3.微軟云</h3><p> 1、微軟雲的AZ100學生套餐，可以拿學生包嘗試注冊一下，不一定能過，edu的郵箱可以注冊一下，不包過，看命的，甲骨文云也是看命的，亞馬遜云的話有虛擬庫比較穩一點</p></li><li><h3 id="4-谷歌云"><a href="#4-谷歌云" class="headerlink" title="4.谷歌云"></a>4.谷歌云</h3><ul><li>1、比前三個注冊比較容易，注冊一次很容易，第二次你想用外幣信用卡去搞的話就比較難搞了</li></ul></li><li><h3 id="5-DigitalOcean"><a href="#5-DigitalOcean" class="headerlink" title="5.DigitalOcean"></a>5.DigitalOcean</h3><p> 1、區域比較受限，日本韓國香港這些比較熱門的區域就沒有，新加坡這個延遲也是很高的，好在它的帶寬比較不錯，比較穩定的輸出，可以白嫖400美金</p></li><li><h3 id="6、VULTR"><a href="#6、VULTR" class="headerlink" title="6、VULTR"></a>6、VULTR</h3><ul><li>1、VULTR的ip比較拉跨，國内使用的話非常不建議，体验不好</li></ul></li></ul><ul><li><h3 id="7、linode"><a href="#7、linode" class="headerlink" title="7、linode"></a>7、linode</h3><ul><li>1、風控比較嚴格，得拿國外的信息去注冊，成功率很低</li></ul></li></ul><ul><li><h3 id="8、CLOUDCONE"><a href="#8、CLOUDCONE" class="headerlink" title="8、CLOUDCONE"></a>8、CLOUDCONE</h3><ul><li>1、雙十一之後價格上去了，不親民了，十五美元一年</li></ul></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;h2 id=&quot;一、如何挑選適合自己的服務器&quot;&gt;&lt;a href=&quot;#一、如何挑選適合自己的服務器&quot; class=&quot;headerlink&quot; title=&quot;一、如何挑選適合自己的服務器&quot;&gt;&lt;/a&gt;一、如何挑選適合自己的服務器&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;其實推薦服務器比較爲難的，下面我給大家分享我收集到資料，本期不是水文章，是我收集了好多了up主使用過的vps服務器的體驗感給大家推薦的&lt;/li&gt;
+&lt;li&gt;如果大家不想選的話，搬瓦工就可以了，但是搬瓦工比較貴，所以我出了這篇文章</summary>
+    
+    
+    
+    <category term="服務器" scheme="http://example.com/categories/%E6%9C%8D%E5%8B%99%E5%99%A8/"/>
+    
+    
+    <category term="服務器" scheme="http://example.com/tags/%E6%9C%8D%E5%8B%99%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx 入門（一）</title>
     <link href="http://example.com/2023/02/08/hello-world-1/"/>
     <id>http://example.com/2023/02/08/hello-world-1/</id>
     <published>2023-02-08T07:53:08.000Z</published>
-    <updated>2023-02-08T07:53:58.540Z</updated>
+    <updated>2023-02-09T05:44:07.621Z</updated>
     
     
     
     
-    <category term="分类1" scheme="http://example.com/categories/%E5%88%86%E7%B1%BB1/"/>
-    
-    <category term="分类2" scheme="http://example.com/categories/%E5%88%86%E7%B1%BB1/%E5%88%86%E7%B1%BB2/"/>
+    <category term="Nginx" scheme="http://example.com/categories/Nginx/"/>
     
     
-    <category term="标签1" scheme="http://example.com/tags/%E6%A0%87%E7%AD%BE1/"/>
-    
-    <category term="标签2" scheme="http://example.com/tags/%E6%A0%87%E7%AD%BE2/"/>
-    
-    <category term="标签3" scheme="http://example.com/tags/%E6%A0%87%E7%AD%BE3/"/>
+    <category term="Nginx" scheme="http://example.com/tags/Nginx/"/>
     
   </entry>
   
@@ -44,15 +115,12 @@
     <link href="http://example.com/2023/02/06/hello-world/"/>
     <id>http://example.com/2023/02/06/hello-world/</id>
     <published>2023-02-06T05:02:55.021Z</published>
-    <updated>2023-02-06T05:02:55.021Z</updated>
+    <updated>2023-02-09T06:41:38.154Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<br><span id="more"></span></p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;</summary>
     
     
     
